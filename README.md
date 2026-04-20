@@ -1,5 +1,5 @@
 ```mermaid
-flowchart TD
+graph TD
     Start([Начало]) --> SetLocale[setlocale LC_ALL Russian]
     SetLocale --> InputN[/Вывод: Введите размер n/]
     InputN --> ReadN[/Ввод n/]
