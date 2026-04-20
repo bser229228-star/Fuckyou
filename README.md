@@ -132,3 +132,4 @@ graph TD
         DM_iCond -->|Нет| DM_DeleteMat[delete[] matrix]
         DM_DeleteMat --> DM_End([Конец])
     end
+```mermaid
