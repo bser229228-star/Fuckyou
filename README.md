@@ -1,6 +1,5 @@
-'''mermaid
+```mermaid
 flowchart TD
-
     Start([Начало]) --> SetLocale[setlocale LC_ALL Russian]
     SetLocale --> InputN[/Вывод: Введите размер n/]
     InputN --> ReadN[/Ввод n/]
